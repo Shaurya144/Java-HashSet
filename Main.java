@@ -15,9 +15,10 @@ public class Main {
 
         System.out.println(Customers);
 
-        // It also has the .add(), .remove() and .clear() methods
+        // It also has the .size(), .add(), .remove() and .clear() methods
 
         // Importantly, it also has the contains() method to check whether it contains a
         // certain item
+        System.out.println(Customers.contains("NotJohn Doe")); // return true
     }
 }
